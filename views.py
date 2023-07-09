@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
 def login_view(request):
-    remaining_attempts = 3  # Set the maximum number of login attempts
+    remaining_attempts = 3  
     if request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']

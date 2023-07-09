@@ -3,4 +3,4 @@ class user(models.Model):
     username=models.CharField(max_length=50)
     password=models.CharField(max_length=60)
 
-# Create your models here.
+
